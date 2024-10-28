@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1>
+    Hello, World!
+  </h1>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embassy</title>
+</head>
+<body>
+    <h1>WELLCOM</h1>
+    <form action="submit_form.php" method="post">
+        <label for="name">الاسم:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="phone">رقم التليفون:</label><br>
+        <input type="text" id="phone" name="phone" required><br><br>
+        
+        <label for="passport">رقم جواز السفر:</label><br>
+        <input type="text" id="passport" name="passport" required><br><br>
+        
+        <label for="reason">سبب الزيارة:</label><br>
+        <input type="text" id="reason" name="reason" required><br><br>
+        
+        <input type="submit" value="إرسال">
+    </form>
+</body>
+</html>
